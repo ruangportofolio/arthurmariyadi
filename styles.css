@@ -182,14 +182,14 @@ a {
              glowPulse 3s ease-in-out infinite;
 }
 
-/* Animasi melayang lembut */
+/* Animasi float */
 @keyframes float {
   0% { transform: translateY(0px); }
   50% { transform: translateY(-6px); }
   100% { transform: translateY(0px); }
 }
 
-/* Animasi glow berdenyut */
+/* Animasi glow */
 @keyframes glowPulse {
   0% {
     box-shadow:
@@ -283,4 +283,5 @@ a {
   font-style: italic;
   letter-spacing: 0.4px;
 }
+
 
